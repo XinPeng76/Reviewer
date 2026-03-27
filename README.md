@@ -1,7 +1,10 @@
 ## FP++ Convergence Analysis
 
-<p align="center">
-  <img src="figures/FP_convergence_analysis_ndim10_full.png" width="32%">
-  <img src="figures/FP_convergence_analysis_ndim100_full.png" width="32%">
-  <img src="figures/FP_convergence_analysis_ndim1000_full.png" width="32%">
-</p>
+### 10D
+![10D](FP_convergence_analysis_ndim10_full.png)
+
+### 100D
+![100D](FP_convergence_analysis_ndim100_full1.png)
+
+### 1000D
+![1000D](FP_convergence_analysis_ndim1000_full1.png)
