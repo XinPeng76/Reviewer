@@ -38,34 +38,3 @@ The x-axis shows the absolute estimation error, defined as the average absolute 
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim1000_full1.png" width="600"/>
 </p>
-
-
-## FP++ Convergence Analysis (VJP vs Finite Difference)
-
-### 10D
-<p align="center">
-  <img src="figures/FP_convergence_analysis_ndim10_jvp.png" width="600"/>
-</p>
-
-### 100D
-<p align="center">
-  <img src="figures/FP_convergence_analysis_ndim100_jvp.png" width="600"/>
-</p>
-
-### 1000D
-<p align="center">
-  <img src="figures/FP_convergence_analysis_ndim1000_jvp.png" width="600"/>
-</p>
-
-
-## Feynman-Kac Correctors (FKC) Results on GMM 10D Benchmark
-
-### Annealed SDE + FKC
-<p align="center">
-  <img src="figures/fkc_comparison.png" width="900"/>
-</p>
-
-### Reward-tilted Target + FKC
-<p align="center">
-  <img src="figures/reward_fkc_comparison.png" width="900"/>
-</p>
