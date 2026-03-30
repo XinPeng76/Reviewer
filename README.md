@@ -1,4 +1,4 @@
-### Table: Variance of entropy estimator (1000 samples) across methods and dimensionalities
+### Table 1: Variance of entropy estimator (1000 samples) across methods and dimensionalities
 
 BF Jacobian denotes ground truth. Methods with prefix FP use finite-difference FP/FP++, where the number indicates the number of probes (e.g., FP1 uses 1 probe per estimate). Methods denoted as Gk and Rk correspond to Hutchinson estimators using Gaussian and Rademacher probes respectively, where k indicates the number of probes.
 
@@ -39,7 +39,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
   <img src="figures/FP_convergence_analysis_ndim1000_full1.png" width="600"/>
 </p>
 
-### Chignolin: Stability across 5 independent runs
+### Table 2: Stability evaluation on the Chignolin system across 5 independent runs
 
 We report results over 5 independent runs. “Proportion” denotes the fraction of particles located in the right basin (corresponding to the β-hairpin configuration), while “# Preserved” denotes the number of preserved lineages after resampling. FP++ variants show consistent performance across runs.
 
