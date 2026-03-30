@@ -1,4 +1,4 @@
-### Table 1: Variance of entropy estimator (1000 samples) across methods and dimensionalities
+<img width="102" height="20" alt="image" src="https://github.com/user-attachments/assets/69991a22-040d-4591-97e3-c2fb624c7044" />### Table 1: Variance of entropy estimator (1000 samples) across methods and dimensionalities
 
 BF Jacobian denotes ground truth. Methods with prefix FP use finite-difference FP/FP++, where the number indicates the number of probes (e.g., FP1 uses 1 probe per estimate). Methods denoted as Gk and Rk correspond to Hutchinson estimators using Gaussian and Rademacher probes respectively, where k indicates the number of probes.
 
@@ -43,7 +43,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 
 We report results over 5 independent runs. “Proportion” denotes the fraction of particles located in the right basin (corresponding to the β-hairpin configuration), while “# Preserved” denotes the number of preserved lineages after resampling. FP++ variants show consistent performance across runs.
 
-| Method | Metric | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean |
-|--------|--------|------:|------:|------:|------:|------:|-----:|
-| FP++  | Proportion|  0.364  |  0.3745 |  0.360 |  0.3455  |  0.354  | ...  |
-| FP++  | Preserved | 1463| 1495 | 1461 | 1451|1498 | ... |
+| Method | Metric | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean | Std |
+|--------|--------|------:|------:|------:|------:|------:|-----:|-----:|
+| FP++  | Proportion|  0.364  |  0.375 |  0.360 |  0.346  |  0.354  | 0.356|0.011|
+| FP++  | Preserved | 1463| 1495 | 1461 | 1451|1498 | 1473.6 |21.2 |
