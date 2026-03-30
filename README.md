@@ -38,3 +38,12 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim1000_full1.png" width="600"/>
 </p>
+
+### Chignolin: Stability across 5 independent runs
+
+We report results over 5 independent runs. “Proportion” denotes the fraction of particles located in the right basin (corresponding to the β-hairpin configuration), while “# Preserved” denotes the number of preserved lineages after resampling. FP++ variants show consistent performance across runs.
+
+| Method | Metric | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean |
+|--------|--------|------:|------:|------:|------:|------:|-----:|
+| FP++  | Proportion   |  ...  |  ...  |  ...  |  ...  |  ...  | ...  |
+| FP++  | Preserved | ... | ... | ... | ... | ... | ... |
