@@ -45,5 +45,5 @@ We report results over 5 independent runs. “Proportion” denotes the fraction
 
 | Method | Metric | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Mean |
 |--------|--------|------:|------:|------:|------:|------:|-----:|
-| FP++  | Proportion   |  ...  |  ...  |  ...  |  ...  |  ...  | ...  |
-| FP++  | Preserved | ... | ... | ... | ... | ... | ... |
+| FP++  | Proportion|  0.364  |  0.3745 |  0.360 |  0.3455  |  0.354  | ...  |
+| FP++  | Preserved | 1463| 1495 | 1461 | 1451|1498 | ... |
