@@ -43,7 +43,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 
 We report results over 10 independent runs. “Proportion” denotes the fraction of particles located in the right basin (corresponding to the β-hairpin configuration), while “# Preserved” denotes the number of preserved lineages after resampling. FP++ variants show consistent performance across runs.
 
-| Method | Metric      | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Run 6 | Run 7 | Run 8 | Run 9 | Run 10 | Mean   | Std    |
-|--------|-------------|------:|------:|------:|------:|------:|------:|------:|------:|------:|-------:|-------:|-------:|
+| Method | Metric      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | Mean   | Std   |
+|--------|-------------|--:|--:|--:|--:|--:|--:|--:|--:|--:|---:|-------:|------:|
 | FP++   | Proportion  | 0.364 | 0.3745 | 0.360 | 0.3455 | 0.354 | 0.3855 | 0.3775 | 0.358 | 0.3515 | 0.390 | 0.3661 | 0.0151 |
 | FP++   | # Preserved | 1463  | 1495  | 1461  | 1451  | 1498  | 1477  | 1491  | 1447  | 1480  | 1470  | 1473.3 | 18.0   |
